@@ -9,7 +9,6 @@ This python script will export the most recent document of all indices in Elasti
 
 ### run the commands to export the file
 ```
-cd elasticsearch_csv
 python3 es_csv.py
 ```
 
