@@ -1,15 +1,25 @@
 
 # Export recent documents of indices to CSV 
+This python script will create a CSV file containing 4 colums:
 
-This python script will export the most recent document of all indices in Elasticsrearch to a CSV file.
-
-### Install  requirements.txt
+INDEX NAME, DOCUMENT ID, TIMESTAMP, MESSAGE
+###
+#### Pandas, and Elasticsearch python modules are required to run the script 
+##### Install  requirements.txt
 
 `pip install -r requirements.txt`
 
-### run the commands to export the file
+#### Set the server ip address as an enviroment variable
+`export SERVER_IP=<ip address>`
+
+
+#### run the commands to create the file
 ```
+<<<<<<< HEAD
 python3 es_csv.py
+=======
+python3 doc_to_csv.py
+>>>>>>> 3e45fcb (refined code)
 ```
 
 The file is exported to the **Documents** directory and is called **es_output.csv**
