@@ -15,11 +15,7 @@ INDEX NAME, DOCUMENT ID, TIMESTAMP, MESSAGE
 
 #### run the commands to create the file
 ```
-<<<<<<< HEAD
-python3 es_csv.py
-=======
 python3 doc_to_csv.py
->>>>>>> 3e45fcb (refined code)
 ```
 
 The file is exported to the **Documents** directory and is called **es_output.csv**
