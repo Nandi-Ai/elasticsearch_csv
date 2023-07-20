@@ -44,7 +44,7 @@ for index_name in recent_index:
 df = pd.DataFrame(results)
 
 USER=getlogin()
-csv_file_path = f"/home/{USER}/Documents/es_output.csv"
+csv_file_path = f"es_output.csv"
 
 df.to_csv(csv_file_path, index=False)
 print(f"Results have been written to {csv_file_path}")
